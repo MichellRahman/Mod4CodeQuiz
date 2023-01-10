@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+}
+
+
+#top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#quiz {
+    display: none;
+}
+
+#done {
+    display: none;
+}
+
+#highScores {
+    display: none;
+}
+
+#startButton {
+    color: aliceblue;
+    background-color: blue;
+    border-radius: 15px;
+}
+
+#startButton:hover {
+    background-color:dodgerblue;
+}
+
+.button {
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: grey;
+}
+
+#view {
+    border: none; 
+    background: white;
+    color: blue;
+    
+    font-weight: bold;
+}
+
+#view:hover {
+text-decoration: underline;
+cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+}
